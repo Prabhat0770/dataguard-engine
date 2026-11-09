@@ -8,6 +8,7 @@ from .cleaner import (
     MemoryOptimizer,
     DataCleanerPipeline,
 )
+from .reporter import DataHealthReporter
 
 __all__ = [
     "DataGuardError",
@@ -20,4 +21,5 @@ __all__ = [
     "VectorizedOutlierCapper",
     "MemoryOptimizer",
     "DataCleanerPipeline",
+    "DataHealthReporter",
 ]
