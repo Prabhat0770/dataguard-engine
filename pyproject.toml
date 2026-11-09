@@ -1,0 +1,20 @@
+[project]
+name = "dataguard"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Prabhat Upadhyay", email = "Prabhat557557@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "numpy>=2.5.4",
+    "pandas>=3.1.1",
+]
+
+[project.scripts]
+dataguard = "dataguard:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
